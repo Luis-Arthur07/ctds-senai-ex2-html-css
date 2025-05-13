@@ -1,0 +1,221 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+img{
+    width: 90%;
+    height: 180px;
+}
+
+h2{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+/* Main */
+:root{
+    --color-h1:#2c3e50;
+    --color-h2:#2c3e50;
+    --background-card: #fff;
+    --background-button: #f1c40f;
+    --color-button: #2c3e50;
+    --color-menu:  #2c3e50;
+    --background-footer: #2c3e50;
+    --background-body: #f4f4f4;
+    --color-body: #2c3e50;
+    --background-header: #2c3e50;
+    --color-logo: #f1c40f;
+    --background-footer: #2c3e50;
+    --color-footer: white;
+    --color-section4-h2:#dadada;
+    --background-depoimento:#ffffff;
+}
+section{
+    color: var(--color-h1);
+    color: var(--color-h2);
+    text-align: center;
+}
+
+body{
+   
+    color: var(--color-body);
+}
+
+.menu li{
+    color: var(--color-menu)
+}
+
+
+
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+
+}
+
+.card2{
+    background-color: var(--background-card);
+    border: 1px solid #ccc;
+    width: 220px; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 1.0 ease-in-out;
+
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    align-items: center;
+}
+
+button{
+    border: none;
+    background-color: var(--background-button);
+    color: var(--color-button);
+    cursor: pointer;
+    padding: 12px; 
+    font-size: large;
+    border-radius: 8px;
+    margin: 10px 0px 10px 0px;
+    padding: 6px;
+    width: 80%;
+    font-weight: bold; 
+}
+
+
+
+.card2:hover{
+    transition: transform 1.0 ease-in-out;
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+/* Cabeçalho --------------------------- */
+header{
+    background-color: var(--background-header);
+    padding: 20px;
+    
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabeca{
+    display: flex;
+    gap: 32px;
+    list-style-type: none;
+    
+}
+
+.cabeca a{
+    color: var(--color-logo);
+    text-decoration: none;
+}
+.logo{
+    color: var(--color-logo);
+   
+
+}
+/* Fim do cabeçalho --------------------------- */
+
+
+/*Rodapé ------------------------------------- */
+
+footer{
+    background-color: var(--background-footer);
+    color: var(--color-footer);
+    display: flex;
+    justify-content:space-around;
+    height: 100px;
+    align-items: center;
+    
+
+}
+footer a{
+    color: #f1c40f;
+    list-style-type: none;
+}
+footer a:hover{
+    text-decoration: underline;
+    
+}
+
+
+.lista3{
+    text-align: center;
+}
+
+.lista2 ul{
+    list-style-type: none;
+}
+
+.section4{
+    width: 100%;
+}
+
+.depoimento{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: var(--background-depoimento);
+    padding: 60px;
+    
+}
+
+.img2{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+    padding: 20px 15px;
+    background-color: var(--color-section4-h2);   
+   
+}
+
+.img2 img{
+    border-radius: 100px;
+    width: 80px;
+    margin-bottom: 20px;
+    height: 80px;
+}
+
+.img2 p{
+   margin-bottom: 20px;   
+}
+
+.section4 h2{
+    text-align: center;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    padding: 60px 0 0 0px
+
+}
+
+h1{
+    margin-top: 40px;
+}
+
+body{
+    background-color: var(--background-body);
+}
+.section4{
+    background-color: white;
+   
+}
+
+.moda{
+    padding: 40px;
+}
